@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="zh-cmn-Hans">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- 点击无高光 -->
+    <meta name="msapplication-tap-highlight" content="no">
+    <title>校园零食</title>
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="./css/details_modify.css">
+    <link rel="stylesheet" href="./css/iconfont_ckgl.css">
+</head>
+<body>
+    
+    <div class="wrap">
+        <!-- 头部搜索 -->
+        <header>
+            <form action="">
+                <input type="text" name="details_seacher" value="商品搜索" class="details_seacher" />
+            </form>
+        </header>
+        <!-- 头部搜索结束 -->
+
+        <!-- 选择商品图 -->
+        <div class="commodityImg">
+            <p>选择商品图</p>
+            <ul>
+                <li class="commodityImgli" data-commodityId='1'>
+                    <a href="javascript:">
+                        <img src="./images/10.png" alt="">
+                        <span>冰红茶</span>
+                    </a>
+                </li>
+                <li class="commodityImgli" data-commodityId='2'>
+                    <a href="javascript:">
+                        <img src="./images/product_1.jpg" alt="">
+                        <span>冰红茶</span>
+                    </a>
+                </li>
+                <li class="commodityImgli" data-commodityId='3'>
+                    <a href="javascript:">
+                        <img src="./images/timg1.jpg" alt="">
+                        <span>冰红茶</span>
+                    </a>
+                </li>
+                <li class="commodityImgli" data-commodityId='4'>
+                    <a href="javascript:">
+                        <img src="./images/9.png" alt="">
+                        <span>冰红茶</span>
+                    </a>
+                </li>
+                <div style="clear: both"></div>
+            </ul>
+            <div style="clear: both"></div>
+        </div>
+
+        <!-- 选择商品图结束 -->
+
+        <!-- 上传自己商品图 -->
+        <!-- 上传照片 -->
+        <div class="iploadimg">
+            <p>上传照片 , 更加方便了解您的需求(最多上传一张)</p>
+            <div class="deposit">
+                <img class="choiceImg" src="" alt="" style="background: #ededed"/>
+                <!-- <i class="iconfont icondelete deleimg"></i> -->
+            </div>
+            <form>
+                <label for="updataimg">
+                    <input type="file" name='updataimg' id="updataimg" hidden />
+                    <i class="iconfont iconshangchuan" style="font-size: 3.5rem"></i>
+                </label>
+            </form>
+        </div>
+        <!-- 上传照片结束 -->
+        <!-- 上传自己商品图结束 -->
+
+        <!-- 零售价格 -->
+        <div class="funLine">
+            <div class="funline_con">
+                <span>零售价格</span>
+                <input type="text" class="WholesalePrice" value="零售价格" />
+                <span class="cx" data-cxFlag='false'>促销 <i class="iconfont iconwxz" ></i></span>
+            </div>
+        </div>
+        <!-- 零售价格结束 -->
+
+        <!-- 进货价格 -->
+        <div class="funLine">
+            <div class="funline_con">
+                <span>进货价格</span>
+                <input type="text" class="jinhPrice" value="进货价格" />
+            </div>
+        </div>
+        <!-- 进货价格结束 -->
+
+        <!-- 排序描述 -->
+        <div class="funline" style="width: 92%;margin:0 auto">
+            <p style="padding: 8px 0;font-size: 13px;color: #878282;">排序数可以用做标示货架号，比如1号货架3层2号，可以写132。排序号也会按照顺序打印在配送单上，方便从货架上准备商品</p>
+        </div>
+        <!-- 排序描述结束 -->
+
+        <!-- 排序号 -->
+        <div class="funLine">
+            <div class="funline_con">
+                <span>排序号</span>
+                <input type="text" class="sortNum" value="排序号" />
+            </div>
+        </div>
+        <!-- 排序号结束 -->
+
+        <!-- 是否可以用户申请补货 -->
+        <div class="funLine">
+            <div class="funline_con">
+                <span>是否可以让用户补货</span>
+                <input type="text" disabled="disabled" style="background: #fff;width: 49px;" />
+                <span class="lsjg" data-lsFlag='false'>开启 <i class="iconfont iconwxz"></i></span>
+            </div>
+        </div>
+        <!-- 是否可以用户申请补货结束 -->
+
+        <!-- 修改商品按钮 -->
+        <button class="modify_btn">修改商品</button>
+        <!-- 修改商品按钮结束 -->
+
+        <!-- 修改商品下描述 -->
+        <div class="funline" style="width: 92%;margin:0 auto">
+            <p style="padding-top: 6px;padding-bottom:20px;font-size: 13px;color: #878282;">
+                零食盒子中在销售的此商品的信息也会同时被修改，包括价格，图片，商品名称，商品分类信息。
+            </p>
+        </div>
+        <!-- 修改商品下描述结束 -->
+    </div>
+
+    <script src="./js/jquery.js"></script>
+    <script src="./js/imgupload.js"></script>
+    <script src="./js/details_modify.js"></script>
+</body>
+</html>
