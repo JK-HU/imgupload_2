@@ -1,0 +1,199 @@
+.wrap{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+header{
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    background: #fff;
+}
+header form{
+    width: 90%;
+    height: 100%;
+    display: block;
+    margin: 0 auto;
+    border-bottom: 1px solid #c5c5c5;
+
+}
+header form input{
+    width: 100%;
+    height: 100%;
+    display: block;
+    padding: 0 5px;
+    color: #000;
+    font-size: 16px;
+}
+
+/* 选择商品图 */
+.commodityImg{
+    width: 100%;
+    height: auto;
+    margin-top: 1px;
+    background: #fff;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #d9d9d9;
+}
+.commodityImg > p{
+    width: 90%;
+    height: 100%;
+    margin: 0 auto;
+    padding-top: 18px;
+    padding-bottom: 10px;
+}
+.commodityImg ul{
+    width: 95%;
+    height: 100%;
+    margin: 0 auto;
+    
+}
+.commodityImg ul li{
+    width: 25%;
+    height: auto;
+    float: left;
+    display: block;
+    text-align: center;
+    border: 1px solid #eee;
+    margin: 20px 0 0 16px;
+}
+.commodityImg ul li a{
+    width: auto;
+    height: 100%;
+    padding: 9px 6px;
+    display: block;
+
+}
+.commodityImg ul li a img{
+    width:45px;
+    height:45px;
+    background:#eee;
+    margin: 0 auto;
+    display: block;
+}
+.commodityImg ul li a span{
+    display: block;
+    padding-top:5px;
+}
+/* 选择商品图结束 */
+
+/* 上传照片 */
+.iploadimg{
+    width: 100%;
+    height: auto;
+    padding: 10px 1px 3rem 1px;
+    background-color: #fff;
+    border-bottom: 1px solid #d9d9d9;
+    overflow: hidden;
+}
+.iploadimg .deposit{
+    width: 90px;
+    height: 90px;
+    text-align: center;
+    /* line-height: 90px; */
+    margin-top: 40px;
+    margin-left: 6px;
+    display: inline-block;
+    position: relative;
+    float: left;
+}
+.iploadimg .deposit img{
+    width: 100%;
+    height: 100%;
+    border-radius: 4px;
+    display: block;
+}
+.iploadimg .deposit .deleimg{
+    display: block;
+    width: 25px;
+    height: 25px;
+    line-height: 25px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    text-align: center;
+    color: #fff;
+    background-color: #f72222b3;
+    border-radius: 2px;
+    font-size: 21px;
+}
+.iploadimg p{
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    color: #666;
+    left: 13px;
+    position: absolute;
+}
+.iploadimg form{
+    width: auto;
+    height: 100%;
+    display: block;
+    margin-top: 40px;
+    margin-left: 10px;
+    float: left;
+}
+.iploadimg form label{
+    width: 90px;
+    height: 90px;
+    text-align: center;
+    line-height: 90px;
+    display: inline-block;
+}
+.iploadimg form label i{
+    font-size: 4rem;
+}
+
+/* 零售价格 */
+.funLine{
+    width: 100%;
+    background: #fff;
+}
+.funLine .funline_con{
+    width: auto;
+    padding: 8px 20px;
+    margin: 0 auto;
+    border-bottom: 1px solid #d9d9d9;
+}
+.funLine .funline_con span{
+    width: auto;
+    height: 100%;
+    display: inline-block;
+    color: #000;
+    font-size: 15px;
+}
+.funLine .funline_con span i{
+    font-size: 19px;
+    display: inline-block;
+    color: #333333;
+    width: 33px;
+    height: auto;
+    padding: 8px;
+    text-align: center;
+}
+.funLine .funline_con input{
+    width: 135px;
+    height: 30px;
+    padding: 0 15px;
+    display: inline-block;   
+    font-size: 15px;
+}
+
+/* 零售价格结束 */
+
+/* 修改商品按钮 */
+.modify_btn{
+    display: block;
+    width: 85%;
+    height: 45px;
+    line-height: 45px;
+    font-size: 15px;
+    margin: 13px auto;
+    text-align: center;
+    color: #fff;
+    font-size: 18px;
+    background-color: #2ECC71;
+    border-radius: 5px;
+    border: none;
+}
